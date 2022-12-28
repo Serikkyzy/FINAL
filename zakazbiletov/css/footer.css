@@ -1,0 +1,114 @@
+.footer {
+    width: 100%;
+    min-height: 8rem;
+    background: #2b348b;
+    color: white;
+    font-size: 1rem;
+}
+
+
+.footer-top  {
+    padding: 40px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, auto));
+    grid-column-gap: 28px;
+    justify-content: space-between;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.footer__content-link {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+    margin-bottom: .65rem;
+}
+
+.footer-social {
+    margin-bottom: 1.3rem;
+}
+.footer-social div {
+    margin-bottom: 1rem;
+}
+
+.footer-social div:last-child {
+    margin-bottom: 0;
+}
+
+.take-banks p {
+    margin-bottom: 15px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #232b78;
+    font-size: .85rem;
+}
+
+.footer-bottom-container {
+   display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2.3rem 0;
+}
+
+.follow-title {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom:  1rem;
+}
+
+.follow-email-input {
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 6px 16px;
+    width: 234px;
+    height: 45px;
+    font-size: 12px;
+}
+
+.follow-email {
+    display: flex;
+}
+
+.follow-email-input::placeholder {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.follow-email-button {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ffffff;
+    background-color: #4a57d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-email-button::after {
+    content: url("../img/arrow-right.png");
+}
+
+
+.app-text {
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.app-link {
+    margin-bottom: 10px;
+}
+
+
+
